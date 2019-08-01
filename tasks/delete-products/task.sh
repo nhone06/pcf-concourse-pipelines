@@ -6,6 +6,7 @@ else
   set -e
 fi
 
+find ./om-cli/ -name "om-linux-*" -exec cp '{}' ./om-cli/om-linux  \;
 chmod +x om-cli/om-linux
 CMD=./om-cli/om-linux
 

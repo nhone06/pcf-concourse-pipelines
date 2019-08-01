@@ -1,5 +1,6 @@
 #!/bin/bash -e
 
+find ./om-cli/ -name "om-linux-*" -exec cp '{}' ./om-cli/om-linux  \;
 chmod +x om-cli/om-linux
 OM_CMD=./om-cli/om-linux
 
